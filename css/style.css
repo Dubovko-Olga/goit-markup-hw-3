@@ -195,6 +195,7 @@ justify-content: center;
   width: 264px;
 }
 .third-section{
+  max-width: 1440px;
  background-color: #f4f4fd;
  margin: 0 auto;
  justify-content: center;
@@ -216,7 +217,6 @@ margin-bottom: 72px;
   gap: 24px;
   align-items: center;
 }
-
 .third-section-link{
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -251,6 +251,7 @@ margin-bottom: 72px;
   border-top: none;
 }
 .our-portfolio{
+  max-width: 1128px;
 padding: 120px 0;
 }
 .our-portfolio .container{
