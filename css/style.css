@@ -1,4 +1,4 @@
-*{
+h1,h2,h3,h4,h5,h6,p{
   box-sizing: border-box;
 
 }
@@ -32,11 +32,11 @@ overflow: hidden;
 }
   
 .container{
-  width: 1440px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
- justify-content: center;
+ justify-items: center;
 }
 .header{
   border-bottom: 1px solid #e7e9fc;
@@ -165,7 +165,7 @@ text-align: center;
   padding: 120px 0;
 }
 .subject-item{
-  width: 1128px;
+  width: 1158px;
   padding-top: 120px;
   padding-bottom: 120px;
  margin: 0 auto;
@@ -195,8 +195,8 @@ justify-content: center;
 }
 .third-section{
  background-color: #f4f4fd;
- width: 1440px;
-margin: 0 auto;
+ width: 1158px;
+ margin: 0 auto;
  justify-content: center;
  padding: 120px 0;
 }
@@ -208,7 +208,6 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize; 
 color: #2e2f42;
-width: 162px;
 margin: 0 auto;
 margin-bottom: 72px;
 }
@@ -225,7 +224,7 @@ margin-bottom: 72px;
 }
 .div-heading{
    border-radius: 0 0 4px 4px;
- padding: 32px 0;
+   padding: 32px 0;
 }
 .heading {
   font-weight: 500;
@@ -298,9 +297,15 @@ margin-bottom: 8px;
 .footer{
     background-color: #2e2f42;
     width: 1440px;
-    height: 312px;
    margin:  0 auto;
-   padding: 100px 0;
+}
+.fooret-container{
+   padding-top: 100px;
+ padding-right:1015px;
+   padding-bottom: 100px;
+  padding-left: 161px;
+ 
+
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -311,10 +316,9 @@ margin-bottom: 8px;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-bottom: 16px;
  display: inline-block;
- padding-right:1015px;
- padding-left: 161px;
+ margin-bottom: 16px;
+
 }
 .footer-span {
   color: #f4f4fd;
@@ -326,12 +330,7 @@ margin-bottom: 8px;
   line-height:1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
- margin-top: 0;
-min-width: 264px;
-height: 72px;   
-padding-left: 161px;
-padding-bottom: 100px;
-padding-right: 1015px;
+  width: 264px;  
 } 
 
 
