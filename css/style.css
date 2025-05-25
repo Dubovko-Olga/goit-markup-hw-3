@@ -215,10 +215,14 @@ margin-bottom: 72px;
 .third-section-list{
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 .third-section-link{
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  
+}
+.third-section-link:first-child{
   width: calc((100% - 3 * 24px) / 4);
 }
 .div-heading{
@@ -271,7 +275,7 @@ margin-bottom: 72px;
  flex-wrap: wrap;
  gap: 48px 24px;
 }
-.headline-portfolio-list{
+.headline-portfolio-list:first-child{
   width: calc((100% - 48px) / 3);
 } 
 
