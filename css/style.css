@@ -73,9 +73,10 @@ overflow: hidden;
 .header-menu-list{
   display: flex;
   gap: 40px;
-   padding: 24px 0;
 }
-
+.header-menu-item{
+  padding: 24px 0;
+}
 .header-menu-link{
     font-weight: 500;
   line-height: 1.5;
@@ -227,7 +228,7 @@ margin-bottom: 72px;
 .third-section-link{
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-   width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .div-heading{
    border-radius: 0 0 4px 4px;
@@ -251,13 +252,14 @@ margin-bottom: 72px;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.all-heading{
+.div-heading-portfolio{
   padding:32px 16px;
   margin:0 auto;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .our-portfolio{
 padding: 120px 0 120px 0;
-border: 1px solid #e7e9fc;
 }
 .our-portfolio .container{
   border:1px solid #e7e9fc;
