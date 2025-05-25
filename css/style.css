@@ -76,6 +76,9 @@ overflow: hidden;
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.header-menu-item{
+  padding: 24px 0;
+}
 .header-menu-link{
     font-weight: 500;
   line-height: 1.5;
@@ -89,7 +92,7 @@ overflow: hidden;
   font-style: normal;
   margin-left: auto;
   padding: 24px 0;
- 
+ display: inline-block;
 }
 
 .header-nav{
@@ -201,7 +204,7 @@ margin: 0 auto;
  justify-content: center;
  padding: 120px 0;
 }
-.subject-title{
+.third-section-title{
 font-weight: 700;
 font-size: 36px; 
 line-height: 1.11;
@@ -223,7 +226,7 @@ margin-bottom: 72px;
   margin: 0 auto;
 }
 
-.subject-title-list{
+.third-section-link{
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
