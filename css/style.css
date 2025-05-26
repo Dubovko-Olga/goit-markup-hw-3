@@ -273,8 +273,8 @@ margin-bottom: 72px;
  flex-wrap: wrap;
  gap: 48px 24px;
 }
-.headline-portfolio-list{
-  width: calc ((100% - 24px * 2) / 3);
+.headline-portfolio-link{
+ width: calc ((100% - 24px * 2) / 3);
 } 
 
   .headline-text{
