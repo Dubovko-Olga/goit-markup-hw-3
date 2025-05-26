@@ -276,7 +276,8 @@ margin-bottom: 72px;
 }
 .headline-list{
   display: flex;
- gap: 48px 24px;
+ column-gap: 24px;
+ row-gap: 48px;
  flex-wrap: wrap;
 }
 .headline-portfolio-link{
@@ -297,7 +298,7 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.all-heading-portfolio{
+.div-heading-portfolio{
   padding:32px 16px;
   border: 1px solid #e7e9fc;
 }
