@@ -222,7 +222,7 @@ margin-bottom: 72px;
   border-radius: 0px 0px 4px 4px;
   
 }
-.third-section-link:first-child{
+.third-section-link{
   width: calc((100% - 3 * 24px) / 4);
 }
 .div-heading{
@@ -275,7 +275,7 @@ margin-bottom: 72px;
  flex-wrap: wrap;
  gap: 48px 24px;
 }
-.headline-portfolio-list:first-child{
+.headline-portfolio-list{
   width: calc((100% - 48px) / 3);
 } 
 
