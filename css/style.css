@@ -280,7 +280,7 @@ margin-bottom: 72px;
  flex-wrap: wrap;
 }
 .headline-portfolio-link{
-  width: calc((100% - 24px * 2) / 3);
+  width: calc((100% - 48px) / 3); 
 } 
 
   .headline-text{
