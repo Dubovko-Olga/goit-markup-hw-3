@@ -169,17 +169,14 @@ padding: 188px 0;
 .hero .conteiner{
 text-align: center;
 }
-.subject{
-  padding: 120px 0;
-}
+
 .subject-list{
   width: calc ((100% - 24px * 3) / 4);
 }
 .subject-item{
-  margin: 0 auto;
   display: flex;
   gap: 24px;
-  padding: 120px 156px;
+  margin: 120px 156px;
  justify-content: center;
 }
 .caption {
@@ -199,7 +196,6 @@ text-align: center;
   width: 264px;
 }
 .third-section{
-  max-width: 1440px;
  background-color: #f4f4fd;
  margin: 0 auto;
  justify-content: center;
@@ -321,7 +317,6 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   width: 264px;
 } 
-
 
 
 
